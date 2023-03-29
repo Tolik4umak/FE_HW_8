@@ -1,0 +1,28 @@
+
+.themes{
+    display: flex;
+    gap: 10px;
+}
+.themes input {
+    display: none;
+}
+
+.themes label {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.themes input:checked + label {
+    border: 3px solid var(--backgroundColor);
+    outline: 3px solid var(--textCоlor);
+}
+
+.themes .ligth {
+    background: rgb(185, 185, 185);
+}
+
+.themes .dark {
+    background: rgb(36, 36, 36);
+}
